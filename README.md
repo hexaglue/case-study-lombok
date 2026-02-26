@@ -1,8 +1,15 @@
+# Case Study Lombok
+
+> Fork de [Elec_business_spring](https://github.com/Nahima697/Elec_business_spring)
+> utilisé pour valider la prise en charge de Lombok par HexaGlue.
+
+---
+
 # Electricity Business – Déploiement via Docker Compose
 
 ## 1. Présentation
 
-Electricity Business est une application pour réserver des bornes de recharge électrique.  
+Electricity Business est une application pour réserver des bornes de recharge électrique.
 Elle est composée de deux parties :
 
 - **Backend (`elecbusiness_spring`)** : Spring Boot 3.x, Java 21, PostgreSQL, Redis, JWT, OTP, Testcontainers, H2  

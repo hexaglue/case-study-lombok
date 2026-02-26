@@ -287,6 +287,29 @@
                 </configuration>
             </plugin>
 
+            <plugin>
+                <groupId>io.hexaglue</groupId>
+                <artifactId>hexaglue-maven-plugin</artifactId>
+                <version>6.0.0</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <basePackage>com.elec_business</basePackage>
+                    <failOnError>false</failOnError>
+                </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>io.hexaglue.plugins</groupId>
+                        <artifactId>hexaglue-plugin-audit</artifactId>
+                        <version>3.0.0</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>io.hexaglue.plugins</groupId>
+                        <artifactId>hexaglue-plugin-living-doc</artifactId>
+                        <version>3.0.0</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+
             <!-- Plugin Surefire pour gérer l'exécution des tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
